@@ -1,0 +1,130 @@
+.openning {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 7px solid #6cc8df;
+  &__hours {
+    min-width: 400px;
+    h2 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 44px;
+      color: #2a93c9;
+      padding-bottom: 14px;
+    }
+  }
+
+  &__hours-days {
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 14px;
+
+    h2 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+
+      color: #1e2428;
+    }
+
+    p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 16px;
+      line-height: 22px;
+
+      text-align: right;
+
+      color: #2a93c9;
+    }
+  }
+
+  &__doctors-timetable {
+    min-width: 400px;
+    padding: 0 30px;
+    h2 {
+      padding-bottom: 14px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 44px;
+
+      color: #2a93c9;
+    }
+
+    p {
+      padding-bottom: 15px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 29px;
+      max-width: 300px;
+
+      color: #42474c;
+    }
+
+    a {
+      background: #ffffff;
+      border: 1px solid #2a93c9;
+      border-radius: 3px;
+      padding: 16px 19.6562px 17px 19px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 700;
+      font-size: 12px;
+      line-height: 13px;
+      text-align: center;
+      letter-spacing: 2px;
+
+      color: #2a93c9;
+    }
+  }
+
+  &__emergency-cases {
+    min-width: 400px;
+    h2 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 500;
+      font-size: 26px;
+      line-height: 44px;
+      color: #2a93c9;
+    }
+    p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 16px;
+      line-height: 29px;
+      max-width: 300px;
+
+      color: #42474c;
+    }
+  }
+
+  &__emergency-cases-phone {
+    display: flex;
+    align-items: center;
+
+    img {
+      width: 70px;
+      height: 70px;
+    }
+
+    a {
+      padding-left: 10px;
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 36px;
+      line-height: 54px;
+      color: #1e2428;
+    }
+  }
+}

@@ -1,0 +1,47 @@
+.doctor-bg {
+  background-image: url("/img/doctor-section-bg.jpg");
+  background-size: 100vw;
+  background-repeat: no-repeat;
+  height: 512px;
+}
+.doctor-say-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 60px;
+  img {
+    padding-top: 60px;
+  }
+
+  p {
+    max-width: 667px;
+    text-align: center;
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 48px;
+    color: #2a93c9;
+    padding: 54px 0;
+  }
+
+  h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    color: #1e2428;
+  }
+
+  h3 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 12px;
+    line-height: 17px;
+    letter-spacing: 1px;
+    color: #1e2428;
+  }
+}

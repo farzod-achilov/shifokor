@@ -1,0 +1,44 @@
+.services {
+  padding-top: 60px;
+  h2 {
+    font-family: "Lato";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 44px;
+    color: #1e2428;
+    padding-bottom: 15px;
+  }
+
+  span {
+    display: inline-block;
+    width: 65px;
+    height: 2px;
+    background-color: #56b0d2;
+    margin-bottom: 30px;
+  }
+  &__inside {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  &__content {
+    max-width: 280px;
+    h2 {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 20px;
+      line-height: 24px;
+      color: #1e2428;
+    }
+    p {
+      font-family: "Lato";
+      font-style: normal;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 24px;
+      color: #1e2428;
+    }
+  }
+}
